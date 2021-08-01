@@ -19,6 +19,9 @@ case "$A1$A2" in
 	"IBM S/390")
 		ARCH="s390x"
 		;;
+    AArch64*)
+		ARCH="arm64"
+		;;
 	ARMv7*)
 		ARCH="armv7"
 		;;

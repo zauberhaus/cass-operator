@@ -17,4 +17,4 @@ FROM scratch
 COPY --from=builder /var/lib/cass-operator /var/lib/cass-operator
 COPY --from=builder /operator /operator
 
-CMD [ "/operat
+CMD [ "/operator"]
